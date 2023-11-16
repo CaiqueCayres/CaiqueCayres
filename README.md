@@ -2,7 +2,7 @@
 
 ### <img src="https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" width="300"> 
 
-<p><em>Enthusiastic iOS Developer at <a href="https://github.com/CaiqueCayres">My GitHub</a><img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"></br>
+<p><em>Enthusiastic iOS and macOS Developer at <a href="https://github.com/CaiqueCayres">My GitHub</a><img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"></br>
 
 Passionate about Artificial Intelligence and Crypto <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="30"> 
 
@@ -22,8 +22,11 @@ struct Developer {
     var architecturePatterns: [String] = ["MVVM", "VIPER", "MVP", "MVC"]
     var techCommunities = ["Swift Community", "iOS Tech Talks", "TechMentoring"]
     var currentChallenge = "Enhancing knowledge in AI applied to iOS."
+    var education = "Bachelor in Applied Mathematics"
+    var macOSExperience = "Experienced in macOS development using SwiftUI"
+    var cliDevelopment = "Skilled in developing CLI tools for macOS"
 }
 
 let caiqueCayres = Developer()
 
-print("Meet \(caiqueCayres.name), a developer focused on \(caiqueCayres.currentChallenge)")
+print("Meet \(caiqueCayres.name), a developer focused on \(caiqueCayres.currentChallenge), with a background in \(caiqueCayres.education), \(caiqueCayres.macOSExperience), and \(caiqueCayres.cliDevelopment).")
